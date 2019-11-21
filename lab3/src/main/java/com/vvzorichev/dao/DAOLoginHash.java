@@ -2,9 +2,9 @@ package com.vvzorichev.dao;
 
 import com.vvzorichev.SessionFactoryUtil;
 import com.vvzorichev.entities.LoginHash;
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 
 import java.util.List;
 
@@ -29,11 +29,12 @@ public class DAOLoginHash {
         boolean isContain = false;
         Session session = SessFact.openSession();
         session.beginTransaction();
-        LoginHash lh = session.get(LoginHash.class, login);
-        if (lh != null) {
-            if (lh.GetHash().equals(hash)) {
+        Query query = session.createQuery("From LoginHash where Login= :login");
+        query.setParameter("login", login);
+        List<LoginHash> lhList = query.list();
+        for (LoginHash lh : lhList) {
+            if (lh.GetHash().equals(hash))
                 isContain = true;
-            }
         }
         session.getTransaction().commit();
         session.close();

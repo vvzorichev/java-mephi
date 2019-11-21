@@ -1,7 +1,6 @@
 package com.vvzorichev.dao;
 
 import com.vvzorichev.entities.LoginPassword;
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import java.util.List;

@@ -25,7 +25,7 @@
             Login<br>
             <input type="text" name="login" required placeholder="Enter new login"/><br><br>
             Password<br>
-            <input type="text" name="password" required placeholder="Enter new password"/>
+            <input type="password" name="password" required placeholder="Enter new password"/>
             <input type="submit" name="sign_up" value="Sign up" formaction="/lab3_war_exploded/sign_up"/><br><br>
         </form>
 
