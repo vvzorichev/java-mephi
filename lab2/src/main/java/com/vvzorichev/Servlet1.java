@@ -44,16 +44,20 @@ public class Servlet1 extends HttpServlet {
         request.setAttribute("num1", num1);
         request.setAttribute("num2", num2);
         request.setAttribute("hash", hash);
+
+        String msg = request.getParameter("msg");
+        if (msg != null){
+            request.setAttribute("msg", msg);
+        }
+
         request.getRequestDispatcher("count_to_get_in.jsp").forward(request, response);
     }
 
     protected void doPost (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         int answer = Integer.parseInt(request.getParameter("answer"));
-        String gottenHash = request.getParameter("hash");
-
+        String hash = request.getParameter("hash");
         if (Storage.containsKey(answer)) {
-            if (Storage.get(answer).contains(gottenHash)) {
+            if (Storage.get(answer).contains(hash)) {
                 String uuid = UUID.randomUUID().toString();
                 SetId.addSessionId(uuid);
                 Cookie cookie = new Cookie("sessionId", uuid);
@@ -61,7 +65,8 @@ public class Servlet1 extends HttpServlet {
                 request.getRequestDispatcher("hello_inside.jsp").forward(request, response);
             }
         }
-        else
-            response.getWriter().write("You're robot. Go out!");
+        else{
+            response.sendRedirect("http://localhost:8080/lab2_war_exploded/?msg=Wrong answer! Try again");
+        }
     }
 }
