@@ -11,13 +11,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-    <%
+     <%
         Singltone1 setId = Singltone1.getInstance();
         Cookie[] cookies = request.getCookies();
-        if (cookies == null) {
-            response.sendRedirect("http://localhost:8080/lab2_war_exploded/");
-        }
-        else {
+        if (!(cookies == null)) {
             boolean enableToAccess = false;
             for (Cookie cookie : cookies) {
                 if (cookie.getName().equals("sessionId")) {
@@ -28,6 +25,9 @@
             }
             if (!enableToAccess)
                 response.sendRedirect("http://localhost:8080/lab2_war_exploded/");
+        }
+        else {
+            response.sendRedirect("http://localhost:8080/lab2_war_exploded/");
         }
     %>
 

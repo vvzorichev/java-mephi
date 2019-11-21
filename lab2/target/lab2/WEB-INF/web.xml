@@ -16,10 +16,6 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <welcome-file-list>
-        <welcome-file>count_to_get_in.html</welcome-file>
-    </welcome-file-list>
-
     <filter>
         <filter-name>Filter1</filter-name>
         <filter-class>com.vvzorichev.Filter1</filter-class>
