@@ -26,21 +26,13 @@ public class FilterCookie implements Filter {
                 if (cookie.getName().equals("sessionId")) {
                     String sessionId = cookie.getValue();
                     DAOLoginHash daoLoginHash = new DAOLoginHash();
-                    if (request.getMethod().equalsIgnoreCase("GET")) {
-                        boolean isRegistered = daoLoginHash.IsHashContainInTable(sessionId);
-                        if (isRegistered) {
-                            request.getRequestDispatcher("list_of_users_page.jsp").forward(request, response);
-                        }
-                    }
-                    else {
-                        String login = (String) request.getParameter("login");
-                        boolean isValid = daoLoginHash.IsContainLoginHash(login, sessionId);
-                        if (isValid)
-                            request.getRequestDispatcher("list_of_users_page.jsp").forward(request, response);
+                    String login = (String) request.getParameter("login");
+                    boolean isContain = daoLoginHash.IsContainLoginHash(login, sessionId);
+                    if (isContain)
+                        request.getRequestDispatcher("list_of_users_page.jsp").forward(request, response);
                     }
                 }
             }
-        }
         if(request.getRequestURI().equals("/lab3_war_exploded/list_of_users_page.jsp"))
             request.getRequestDispatcher("sign_in_page.jsp").forward(request, response);
         chain.doFilter(req, res);

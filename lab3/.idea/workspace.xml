@@ -8,13 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="28cc2391-94dd-4223-b21d-10ab2eb835b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/FilterCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/FilterCookie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/dao/DAOLoginHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/dao/DAOLoginHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/dao/DAOLoginPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/dao/DAOLoginPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/entities/LoginHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/entities/LoginHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sign_in_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sign_in_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sign_up_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sign_up_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab3/sign_in_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3/sign_in_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab3/sign_up_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3/sign_up_page.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +213,8 @@
       <workItem from="1574110384308" duration="5952000" />
       <workItem from="1574259742666" duration="12142000" />
       <workItem from="1574275081868" duration="589000" />
-      <workItem from="1574345065955" duration="9317000" />
+      <workItem from="1574345065955" duration="9734000" />
+      <workItem from="1574360904650" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="3">
       <created>1574349615954</created>
@@ -227,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574349615954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3">
+      <created>1574356556472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574356556472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +241,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

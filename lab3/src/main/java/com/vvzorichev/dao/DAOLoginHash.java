@@ -40,18 +40,4 @@ public class DAOLoginHash {
         session.close();
         return isContain;
     }
-
-    public boolean IsHashContainInTable(String hash) {
-        boolean isContain = false;
-        Session session = SessFact.openSession();
-        session.beginTransaction();
-        List<LoginHash> lhList = (List<LoginHash>) session.createQuery("From LoginHash").list();
-        for (LoginHash lh : lhList) {
-            if (lh.GetHash().equals(hash))
-                isContain = true;
-        }
-        session.getTransaction().commit();
-        session.close();
-        return isContain;
-    }
 }
