@@ -26,11 +26,11 @@
             <input type="text" name="login" required placeholder="Enter your login"/><br><br>
             Password<br>
             <input type="text" name="password" required placeholder="Enter your password"/>
-            <input type="submit" name="sign_in" value="Sign in" formaction="/lab3_war_exploded/list"/><br><br>
+            <input type="submit" name="sign_in" value="Sign in" formaction="/lab3_war_exploded/sign_in"/><br><br>
         </form>
 
         <form method="get">
-            <input type="submit" name="sign_up" value="Sign up" formaction="/lab3_war_exploded/add"/>
+            <input type="submit" name="sign_up" value="Sign up" formaction="/lab3_war_exploded/sign_up"/>
         </form>
 
     </body>

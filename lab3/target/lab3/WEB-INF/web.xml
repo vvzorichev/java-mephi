@@ -7,28 +7,23 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <servlet>
-    <servlet-name>AddServlet</servlet-name>
-    <servlet-class>com.vvzorichev.AddServlet</servlet-class>
+    <servlet-name>SignUpServlet</servlet-name>
+    <servlet-class>com.vvzorichev.SignUpServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>AddServlet</servlet-name>
-    <url-pattern>/add</url-pattern>
-  </servlet-mapping>
-
-  <servlet-mapping>
-    <servlet-name>AddServlet</servlet-name>
-    <url-pattern>/</url-pattern>
+    <servlet-name>SignUpServlet</servlet-name>
+    <url-pattern>/sign_up</url-pattern>
   </servlet-mapping>
 
   <servlet>
-    <servlet-name>ListServlet</servlet-name>
-    <servlet-class>com.vvzorichev.ListServlet</servlet-class>
+    <servlet-name>SignInServlet</servlet-name>
+    <servlet-class>com.vvzorichev.SignInServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>ListServlet</servlet-name>
-    <url-pattern>/list</url-pattern>
+    <servlet-name>SignInServlet</servlet-name>
+    <url-pattern>/sign_in</url-pattern>
   </servlet-mapping>
 
   <welcome-file-list>

@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cc2391-94dd-4223-b21d-10ab2eb835b5" name="Default Changelist" comment="3">
+    <list default="true" id="28cc2391-94dd-4223-b21d-10ab2eb835b5" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
@@ -225,8 +225,16 @@
       <workItem from="1574110384308" duration="5952000" />
       <workItem from="1574259742666" duration="12142000" />
       <workItem from="1574275081868" duration="589000" />
-      <workItem from="1574345065955" duration="4262000" />
+      <workItem from="1574345065955" duration="4506000" />
     </task>
+    <task id="LOCAL-00001" summary="3">
+      <created>1574349615954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574349615954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
