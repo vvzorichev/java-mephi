@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.vvzorichev.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.676 s <<< FAILURE! - in com.vvzorichev.AppTest
+testApp(com.vvzorichev.AppTest)  Time elapsed: 3.539 s  <<< ERROR!
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.vvzorichev.LoginPassword
+	at com.vvzorichev.AppTest.testApp(AppTest.java:21)
+
