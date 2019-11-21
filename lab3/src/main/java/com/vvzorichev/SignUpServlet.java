@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/AddServlet")
-public class AddServlet extends HttpServlet {
+@WebServlet("/SignUpServlet")
+public class SignUpServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("sign_up_page.jsp").forward(request, response);

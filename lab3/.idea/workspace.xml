@@ -6,7 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cc2391-94dd-4223-b21d-10ab2eb835b5" name="Default Changelist" comment="" />
+    <list default="true" id="28cc2391-94dd-4223-b21d-10ab2eb835b5" name="Default Changelist" comment="3">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9b591f7-bd6a-4649-a5f6-eb07f720a563.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d9b591f7-bd6a-4649-a5f6-eb07f720a563.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9b591f7-bd6a-4649-a5f6-eb07f720a563/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d9b591f7-bd6a-4649-a5f6-eb07f720a563/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/SignUpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/FilterCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/FilterCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/SignInServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/sign_in_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sign_in_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/sign_up_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sign_up_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vvzorichev/FilterCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vvzorichev/FilterCookie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3/WEB-INF/classes/com/vvzorichev/FilterCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3/WEB-INF/classes/com/vvzorichev/FilterCookie.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +84,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -76,9 +95,11 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1RZCANVBVuILf4Z3TNem7GlohgU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -204,10 +225,26 @@
       <workItem from="1574110384308" duration="5952000" />
       <workItem from="1574259742666" duration="12142000" />
       <workItem from="1574275081868" duration="589000" />
+      <workItem from="1574345065955" duration="4262000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>

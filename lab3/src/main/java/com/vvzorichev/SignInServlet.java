@@ -14,11 +14,11 @@ import java.io.PrintWriter;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-@WebServlet("/ListServlet")
-public class ListServlet extends HttpServlet {
+@WebServlet("/SignInServlet")
+public class SignInServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        request.getRequestDispatcher("sign_in_page.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

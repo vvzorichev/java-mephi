@@ -3,13 +3,13 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.16">
     <root id="1">
       <ServerVersion>10.3</ServerVersion>
-      <StartupTime>1574269128</StartupTime>
+      <StartupTime>1574345354</StartupTime>
     </root>
     <database id="2" parent="1" name="postgres">
       <ObjectId>12994</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>563</IntrospectionStateNumber>
+      <IntrospectionStateNumber>583</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <role id="3" parent="1" name="pg_monitor">
@@ -57,7 +57,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>351</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>564</IntrospectionStateNumber>
+      <IntrospectionStateNumber>584</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="13" parent="2" name="btree">
@@ -118,15 +118,39 @@
     </extension>
     <table id="20" parent="12" name="loginhash">
       <ObjectId>16385</ObjectId>
-      <Outdated>1</Outdated>
       <Owner>temp_user</Owner>
-      <StateNumber>557</StateNumber>
+      <StateNumber>566</StateNumber>
     </table>
     <table id="21" parent="12" name="loginpassword">
       <ObjectId>16388</ObjectId>
-      <Outdated>1</Outdated>
       <Owner>temp_user</Owner>
-      <StateNumber>560</StateNumber>
+      <StateNumber>568</StateNumber>
     </table>
+    <column id="22" parent="20" name="login">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>565</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="23" parent="20" name="hash">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>566</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="24" parent="21" name="login">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>567</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="25" parent="21" name="password">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>568</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
   </database-model>
 </dataSource>

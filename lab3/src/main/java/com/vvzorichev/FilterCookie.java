@@ -41,6 +41,8 @@ public class FilterCookie implements Filter {
                 }
             }
         }
+        if(request.getRequestURI().equals("/lab3_war_exploded/list_of_users_page.jsp"))
+            request.getRequestDispatcher("sign_in_page.jsp").forward(request, response);
         chain.doFilter(req, res);
     }
 }
