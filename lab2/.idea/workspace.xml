@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7899fc5-5288-4e98-8184-a5479f34003c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/Filter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/Filter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vvzorichev/Servlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vvzorichev/Servlet1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/count_to_get_in.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/count_to_get_in.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hello_inside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hello_inside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a7899fc5-5288-4e98-8184-a5479f34003c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,8 +230,16 @@
       <workItem from="1574093483110" duration="88000" />
       <workItem from="1574109773147" duration="600000" />
       <workItem from="1574363524506" duration="521000" />
-      <workItem from="1574365024868" duration="5931000" />
+      <workItem from="1574365024868" duration="6153000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1574370976284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574370976284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +257,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
