@@ -26,8 +26,7 @@ public class FilterCookie implements Filter {
                 if (cookie.getName().equals("sessionId")) {
                     String sessionId = cookie.getValue();
                     DAOLoginHash daoLoginHash = new DAOLoginHash();
-                    String login = (String) request.getParameter("login");
-                    boolean isContain = daoLoginHash.IsContainLoginHash(login, sessionId);
+                    boolean isContain = daoLoginHash.IsContainHash(sessionId);
                     if (isContain)
                         request.getRequestDispatcher("list_of_users_page.jsp").forward(request, response);
                     }
